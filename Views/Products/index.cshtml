@@ -1,0 +1,31 @@
+@model List<fixmaster.Models.Product>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Create" class="btn btn-primary">Añadir producto</a>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="@item.Image" class="card-img-top" alt="Imagen de @item.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text"><strong>Precio:</strong> @Html.DisplayFor(modelItem => item.Price)</p>
+                    <p class="card-text"><strong>Stock:</strong> @Html.DisplayFor(modelItem => item.Stock)</p>
+                    
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
