@@ -1,0 +1,15 @@
+@model fixmaster.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <form asp-action="Delete" asp-area="Products" method="post">
+        <div class="form-group">
+            <input type="submit" value="Borrar" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
