@@ -1,31 +1,33 @@
 @model List<fixmaster.Models.Product>
-
-<div class="row">
-    <div class="col-md-12">
-        <a asp-action="Create" class="">Añadir producto</a>
+<div class="conteiner bg-gray-900 w-full ">
+    <div class="btn-create m-6">
+        <a asp-action="Create"
+        class=" p-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Añadir
+        producto</a>
     </div>
-</div>
+    <div class="grid grid-cols-5 gap-3 m-4">
+        @foreach (var item in Model)
+        {
+            <div class="w-60 m-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 ">
+                <div class="img p-8 flex flex-col justify-center ">
+                    <img src="@item.Image" class="w-30 " alt="Imagen de @item.Name">
+                </div>
+                <div class="px-5 pb-5 ">
 
-<div class="row">
-    @foreach (var item in Model)
-    {
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <img src="@item.Image" class="card-img-top" alt="Imagen de @item.Name">
-                <div class="card-body">
-                    <h5 class="card-title">@item.Name</h5>
-                    <p class="card-text"><strong>Precio:</strong> @Html.DisplayFor(modelItem => item.Price)</p>
-                    <p class="card-text"><strong>Stock:</strong> @Html.DisplayFor(modelItem => item.Stock)</p>
-                    
-                    <div class="d-flex justify-content-between">
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    <h1 class="px-2 font-semibold text-xl">@item.Name</h1>
+
+                    <div class="flex items-center justify-between m-2 pb-5">
+                        <p class=""><strong>Precio:</strong> @Html.DisplayFor(modelItem => item.Price)</p>
+                        <p class=""><strong>Stock:</strong> @Html.DisplayFor(modelItem => item.Stock)</p>
+                    </div>
+                    <div class="flex justify-between px-5">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="py-2 px-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Editar</a>
+                        @* <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a> *@
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="p-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm  dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800">Eliminar</a>
                     </div>
                 </div>
             </div>
-        </div>
-    }
+
+        }
+    </div>
 </div>
-
-

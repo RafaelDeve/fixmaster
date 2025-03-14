@@ -192,6 +192,7 @@ c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\refint\f
 c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\fixmaster.pdb
 c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\fixmaster.genruntimeconfig.cache
 c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\ref\fixmaster.dll
-c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\compressed\tq3zbd8vrw-ezgh0us6vw.gz
 c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\compressed\nzr8gpsfc4-vu4bhfvadl.gz
 c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\compressed\ky2amwywej-vu4bhfvadl.gz
+c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\fixmaster.sourcelink.json
+c:\Users\eduar\Downloads\fixmaster-main\fixmaster-main\obj\Debug\net9.0\compressed\tq3zbd8vrw-5py0dlvs38.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9/KMqpl3vgJDHN/VZCMADiuOAda0uc1kYJw8PSjF0F8=",
+  "Hash": "N7i9n1bdhNGsZaFk6RIBEDNI9Ao8xAk9cltCen3DNMc=",
   "Source": "fixmaster",
   "BasePath": "_content/fixmaster",
   "Mode": "Default",
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-ezgh0us6vw.gz",
+      "Identity": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-5py0dlvs38.gz",
       "SourceId": "fixmaster",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/fixmaster",
-      "RelativePath": "css/output#[.{fingerprint=ezgh0us6vw}]?.css.gz",
+      "RelativePath": "css/output#[.{fingerprint=5py0dlvs38}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\css\\output.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c2apw6hjbt",
-      "Integrity": "zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo=",
+      "Fingerprint": "s1hquwpm3a",
+      "Integrity": "0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\css\\output.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ezgh0us6vw",
-      "Integrity": "OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI=",
+      "Fingerprint": "5py0dlvs38",
+      "Integrity": "V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\output.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/output.css",
-      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-ezgh0us6vw.gz",
+      "Route": "css/output.5py0dlvs38.css",
+      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-5py0dlvs38.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000304414003"
+          "Quality": "0.000179147259"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3284"
+          "Value": "5581"
         },
         {
           "Name": "ETag",
-          "Value": "\"zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo=\""
+          "Value": "\"0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,18 +2772,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI=\""
+          "Value": "W/\"V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5py0dlvs38"
+        },
+        {
+          "Name": "label",
+          "Value": "css/output.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI="
+          "Value": "sha256-V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8="
         }
       ]
     },
     {
-      "Route": "css/output.css",
+      "Route": "css/output.5py0dlvs38.css",
       "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\css\\output.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2793,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11568"
+          "Value": "24847"
         },
         {
           "Name": "Content-Type",
@@ -2801,121 +2809,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI=\""
+          "Value": "\"V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.css.gz",
-      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-ezgh0us6vw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3284"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.ezgh0us6vw.css",
-      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-ezgh0us6vw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000304414003"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3284"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezgh0us6vw"
+          "Value": "5py0dlvs38"
         },
         {
           "Name": "label",
@@ -2923,13 +2831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI="
+          "Value": "sha256-V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8="
         }
       ]
     },
     {
-      "Route": "css/output.ezgh0us6vw.css",
-      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\css\\output.css",
+      "Route": "css/output.5py0dlvs38.css.gz",
+      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-5py0dlvs38.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2938,7 +2846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11568"
+          "Value": "5581"
         },
         {
           "Name": "Content-Type",
@@ -2946,56 +2854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI=\""
+          "Value": "\"0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ezgh0us6vw"
-        },
-        {
-          "Name": "label",
-          "Value": "css/output.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OuiFIRQuFKNu3n4n6rfFqJz30q8mFMM5PcBXLO/43CI="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.ezgh0us6vw.css.gz",
-      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-ezgh0us6vw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3284"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 16:42:48 GMT"
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezgh0us6vw"
+          "Value": "5py0dlvs38"
         },
         {
           "Name": "label",
@@ -3021,7 +2884,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zDg8Tgu7j3fZVFa2snk3t6mGHmDEO13ia5WJecJ3Hmo="
+          "Value": "sha256-0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css",
+      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-5py0dlvs38.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000179147259"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5581"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css",
+      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\wwwroot\\css\\output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V7+9FBQ0sVXPVnoF0UjkS+VJe15tkl8T6gtLX/mq7e8="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css.gz",
+      "AssetFile": "c:\\Users\\eduar\\Downloads\\fixmaster-main\\fixmaster-main\\obj\\Debug\\net9.0\\compressed\\tq3zbd8vrw-5py0dlvs38.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 23:00:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0EZFywWWP09gb1nomqFLynqZcfjRJbGB0Uu/uP/RSGQ="
         }
       ]
     },
